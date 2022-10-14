@@ -1,0 +1,21 @@
+{
+  "name": "@marcdonald/eslint-config",
+  "version": "1.0.0",
+  "description": "Standard eslint config",
+  "main": "index.js",
+  "author": "Marc Donald",
+ "peerDependencies": {
+		"eslint": "8.25.x",
+		"eslint-config-prettier": "8.5.x",
+		"eslint-config-standard": "17.0.x",
+		"eslint-plugin-import": "2.26.x",
+		"eslint-plugin-jsx-a11y": "6.5.x",
+		"eslint-plugin-node": "11.1.x",
+		"eslint-plugin-prettier": "4.0.x",
+		"eslint-plugin-promise": "6.0.x",
+		"eslint-plugin-react": "7.30.x",
+		"eslint-plugin-react-hooks": "4.6.x",
+		"@typescript-eslint/eslint-plugin": "5.28.x",
+		"@typescript-eslint/parser": "5.28.x"
+  }
+}

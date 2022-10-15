@@ -1,3 +1,3 @@
 # eslint-config-marcdonald
 
-Standard eslint config
+Standard eslint configs

@@ -19,9 +19,6 @@ module.exports = {
 		ecmaVersion: 8,
 		sourceType: 'module',
 	},
-	ignorePatterns: ['node_modules/*'],
-	extends: ['eslint:recommended'],
-	rules: { ...coreRules },
 	overrides: [
 		{
 			files: ['**/*.ts?(x)'],
@@ -31,12 +28,8 @@ module.exports = {
 					version: 'detect',
 				},
 			},
-			env: {
-				browser: true,
-				node: true,
-				es6: true,
-			},
-			plugins: [...corePlugins, 'react', 'react-hooks', 'jsx-a11y'],
+			extends: ['@remix-run/eslint-config'],
+			plugins: [...corePlugins, 'react-hooks'],
 			rules: {
 				...coreRules,
 				...reactRules,

@@ -1,6 +1,6 @@
 {
 	"name": "@marcdonald/eslint-config",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Standard eslint configs",
 	"main": "index.js",
 	"author": "Marc Donald",
@@ -15,6 +15,7 @@
 		"eslint-config-prettier": "8.5.0",
 		"eslint-config-standard": "17.0.0",
 		"eslint-plugin-import": "2.26.0",
+		"eslint-import-resolver-node": "0.3.6",
 		"eslint-plugin-jsx-a11y": "6.5.0",
 		"eslint-plugin-node": "11.1.0",
 		"eslint-plugin-prettier": "4.0.0",
